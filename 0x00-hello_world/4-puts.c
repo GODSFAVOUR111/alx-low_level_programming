@@ -1,7 +1,8 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
- * main - prints a phrase 
- * Return: 0 at the end of the program
+ * main - Entry point
+ *  
+ * Return: 0 after printing the function
  */
 int main(void)
 {
