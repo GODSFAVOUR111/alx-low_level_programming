@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 #ifndef MAIN_H
 #define MAIN_H
 
@@ -34,4 +31,3 @@ void print_number(int n);
 
 int numDigits(int n);
 #endif
->>>>>>> dcd9cfb9a9ccb51d58b4463705ce80fe714b9769
