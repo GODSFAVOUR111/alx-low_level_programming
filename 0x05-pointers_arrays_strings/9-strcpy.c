@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- *  * _strcpy - Copy a string
- *   * @dest: Pointer to the string array for copying
- *    * @src: Number of elements to extract
- *     *
- *      * Return: Nothing
- *      */
+ *_strcpy - Copy a string
+ * @dest: Pointer to the string array for copying
+ * @src: Number of elements to extract
+ *
+ * Return: Nothing
+ */
 char *_strcpy(char *dest, char *src)
 {
 		int i = 0;
