@@ -1,25 +1,26 @@
 #include "main.h"
 /**
- *  * _atoi - Get the first integer from a string
- *   * @s: String
- *    *
- *     * Return: The integer obtained
- *     */
+ * _atoi - Get the first integer from a string
+ * @s: String
+ *
+ * Return: The integer obtained
+ */
 int _atoi(char *s)
 {
-		int i = 0;
-			int j = 0;
-				int k = 0;
-					int sign = 1;
-						int stop_sign = 0;
-							int stop_num = 0;
-								int ent_num = 0;
-									char number_in_array[100];
+int i = 0;
+int j = 0;
+int k = 0;
+int sign = 1;
+int stop_sign = 0;
+int stop_num = 0;
+int ent_num = 0;
+char number_in_array[100];
 
-										while (*(s + i) != '\0')
+while (*(s + i) != '\0')
 												{
 															if (*(s + i) == '+' && stop_sign == 0)
-																			sign *= 1;
+
+																sign *= 1;
 																	else if (*(s + i) == '-' && stop_sign == 0)
 																					sign *= -1;
 																			if (*(s + i) >= '0' && *(s + i) <= '9' && stop_num == 0)
