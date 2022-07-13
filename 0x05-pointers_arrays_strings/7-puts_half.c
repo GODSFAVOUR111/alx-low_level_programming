@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- *  * _strlen - Get the length of a string
- *   * @s: Set of characters
- *    *
- *     * Return: String length (int)
- *     */
+ * _strlen - Get the length of a string
+ * @s: Set of characters
+ *
+ * Return: String length (int)
+ */
 int _strlen(char *s)
 {
 		int i = 0;
@@ -17,11 +17,11 @@ int _strlen(char *s)
 }
 
 /**
- *  * puts_half - Print the half of a string
- *   * @str: Set of characters
- *    *
- *     * Return: Nothing
- *     */
+ * puts_half - Print the half of a string
+ * @str: Set of characters
+ *
+ * Return: Nothing
+ */
 void puts_half(char *str)
 {
 		int i;
