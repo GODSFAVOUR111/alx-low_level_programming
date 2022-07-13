@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- *  * puts2 - Swap the value of two integers
- *   * @str: Set of characters
- *    *
- *     * Return: Nothing
- *     */
+ * puts2 - Swap the value of two integers
+ * @str: Set of characters
+ *
+ * Return: Nothing
+ */
 void puts2(char *str)
 {
 		int i = 0;
