@@ -1,12 +1,12 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *  * print_array - Print n elements from an integer array
- *   * @a: Pointer to the integer array
- *    * @n: Number of elements to extract
- *     *
- *      * Return: Nothing
- *      */
+ * print_array - Print n elements from an integer array
+ * @a: Pointer to the integer array
+ * @n: Number of elements to extract
+ *
+ * Return: Nothing
+ */
 void print_array(int *a, int n)
 {
 		int i;
