@@ -1,10 +1,10 @@
-#include "holberton.h"
+#include "main.h"
 /**
- *  * _strlen - Swap the value of two integers
- *   * @s: Set of characters
- *    *
- *     * Return: Nothing
- *     */
+ * _strlen - Swap the value of two integers
+ * @s: Set of characters
+ *
+ * Return: Nothing
+ */
 int _strlen(char *s)
 {
 		int i = 0;
@@ -17,11 +17,11 @@ int _strlen(char *s)
 }
 
 /**
- *  * print_rev - Print a string in reverse
- *   * @s: Set of characters
- *    *
- *     * Return: Nothing
- *     */
+ * print_rev - Print a string in reverse
+ * @s: Set of characters
+ *
+ * Return: Nothing
+ */
 
 void print_rev(char *s)
 {
