@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.hi>
+#include <stdio.h>
 /**
  * main - Program that prints the result  that multiplies two numbers.
  * @argc: count
