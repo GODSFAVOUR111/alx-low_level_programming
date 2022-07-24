@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+#include <stdio.hi>
 /**
  * main - Program that prints the result  that multiplies two numbers.
  * @argc: count
@@ -19,5 +19,5 @@ int main(int argc, char *argv[])
 							printf("%d\n", (atoi(*(argv + 1)) * atoi(*(argv + 2))));
 					return (0);
 }
-Footer
+
 
